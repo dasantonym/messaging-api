@@ -8,6 +8,8 @@ This project is a simple [Feathers API](https://feathersjs.com/) running on
 websockets and implementing the [Handpose example](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 from the [Tensorflow JS model package](https://github.com/tensorflow/tfjs-models).
 
+Try it out at [talktothehand.hyper.fail](https://talktothehand.hyper.fail)
+
 ## :metal: Running
 
 Build a Docker image from the top level:

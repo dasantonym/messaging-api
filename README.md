@@ -1,6 +1,6 @@
-# messaging-api
+# talktothehand
 
-> Very simple API for WebSockets messaging
+> Hand-to-hand conferencing @ CCL2022 Berlin
 
 ## About
 

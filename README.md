@@ -1,6 +1,6 @@
 # Talk to the hand!
 
-> Hand-to-hand conferencing @ CCL2022 Berlin
+> "Digital" communication for the post-conferencing age @ CCL2022 Berlin
 
 ## :fist: About
 
@@ -8,7 +8,8 @@ This project is a simple [Feathers API](https://feathersjs.com/) running on
 websockets and implementing the [Handpose example](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 from the [Tensorflow JS model package](https://github.com/tensorflow/tfjs-models).
 
-Try it out at [talktothehand.hyper.fail](https://talktothehand.hyper.fail)
+Created at the [Choregraphic Coding Lab](http://choreographiccoding.org/)
+at [HZT Berlin](https://www.hzt-berlin.de/) in January 2022.
 
 ## :metal: Running
 

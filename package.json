@@ -1,6 +1,6 @@
 {
-  "name": "messaging-api",
-  "description": "Very simple API for WebSockets messaging",
+  "name": "talktothehand",
+  "description": "Talk to the hand! @ CCL2022 Berlin",
   "version": "0.0.0",
   "homepage": "",
   "private": true,

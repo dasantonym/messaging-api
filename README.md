@@ -1,45 +1,43 @@
-# talktothehand
+# Talk to the hand!
 
 > Hand-to-hand conferencing @ CCL2022 Berlin
 
-## About
+## :fist: About
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+This project is a simple [Feathers API](https://feathersjs.com/) running on
+websockets and implementing the [Handpose example](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
+from the [Tensorflow JS model package](https://github.com/tensorflow/tfjs-models).
 
-## Getting Started
+## :metal: Running
 
-Getting up and running is as easy as 1, 2, 3.
+Build a Docker image from the top level:
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```
-    cd path/to/messaging-api
-    npm install
-    ```
-
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
-```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
+```shell
+docker build -t talktothehand .
 ```
 
-## Help
+The API then runs on port `3030`.
 
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+
+## :wave: Development
+
+First pull the [Motion Bank fork of `tfjs-models`](https://github.com/motionbank/tfjs-models).
+
+```shell
+git submodule init
+git submodule update
+```
+
+The code for the webapp can be found under `tfjs-models/handpose/demo`.
+
+Please see the README for handpose on how to set up development.
+
+After building the app, you need to copy it to the `public/` dir before building a new Docker image.
+
+## :point_up: License
+
+Copyright © 2000 Your Mom <yourmom@aol.com>
+
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See the LICENSE file for more details.
